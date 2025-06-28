@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Regular link */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hover */
+a:hover {
+  color: red;
+}
+
+/* Active */
+a:active {
+  background: purple;
+}
+
+/* Focus */
+a:focus {
+  background: yellow;
+}
+
+a:visited {
+  color: coral;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}

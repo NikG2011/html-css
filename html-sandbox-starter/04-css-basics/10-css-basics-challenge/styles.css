@@ -1,0 +1,45 @@
+body {
+  font-family: "Lato" sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.main-menu {
+  background-color: #f4f4f4;
+  text-indent: 10px;
+}
+
+.lead {
+  font-family: bold;
+  size: 20px;
+  color: rebeccapurple;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #5e175b;
+  font-size: 40px;
+  text-indent: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: rebeccapurple;
+}
+
+a:active {
+  color: red;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

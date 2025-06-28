@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.ofen {
+  border: solid black 4px;
+}
+
+.ofen-1,
+.ofen-2 {
+  text-align: center;
+  margin: 100px auto auto auto;
+  max-width: 500px;
+  /* height: 100px; */
+  background: #474747;
+}
+
+.ofen-1 {
+  height: 100px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  /* background: linear-gradient(to top, orange, rgba(255, 166, 0, 0.753)); */
+}
+
+.ofen-2 {
+  height: 150px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  background: linear-gradient(to top, red, orange);
+}
+
+.main-ofen {
+  margin: 20px 20px 0 20px;
+  background: #333;
+}

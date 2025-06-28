@@ -1,0 +1,41 @@
+html {
+  /* font-size: 62.5%; */
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border: solid 1px black;
+  /* font-size: 20px; */
+}
+
+/* 2 em = parent font-size x2 */
+/* 2 rem = html font-size x2 */
+/* _ */
+
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 0.3rem 0;
+}
+
+ul {
+  /* font-size: 1.5em; */
+  font-size: 1.5rem;
+}
