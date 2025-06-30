@@ -50,3 +50,23 @@ body {
 .header .header-right a:hover {
   color: purple;
 }
+
+/* Main Content */
+.main-content {
+  display: flex;
+  gap: 50px;
+  max-width: 1100px;
+  margin: 200px auto;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  padding: 0 40px;
+}
+
+.main-content form {
+  flex: 1;
+}
+
+.main-content .text-container {
+  flex: 1;
+}
