@@ -1,8 +1,26 @@
-img {
-  width: 100%;
-}
-
 .container {
   max-width: 900px;
   margin: 70px auto;
+}
+
+img {
+  width: 100%;
+  /* -webkit-filter: grayscale(100%); */
+  /* -moz-filter: grayscale(100%); */
+  /* -o-filter: grayscale(100%); */
+  /* -ms-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
+  /* filter: blur(4px); */
+  /* filter: brightness(150%); */
+  /* filter: contrast(140%); */
+  /* filter: drop-shadow(15px 15px 7px #333); */
+  /* filter: hue-rotate(200deg); */
+  /* filter: opacity(50%); */
+  /* filter: saturate(200%); */
+  /* filter: sepia(100%); */
+
+  /* Chain Filters */
+
+  filter: invert(100%) hue-rotate(200deg) drop-shadow(15px 15px 7px #333)
+    contrast(160%) opacity(70%) saturate(800%) blur(0.6px) sepia(20%);
 }
