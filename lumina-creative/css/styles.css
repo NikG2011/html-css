@@ -36,17 +36,17 @@ img {
 
 /* Container */
 .container {
-  max-width: 1100px;
+  max-width: var(--container-normal);
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
 .container-lg {
-  max-width: 1400px;
+  max-width: var(--container-wide);
 }
 
 .container-sm {
-  max-width: 900px;
+  max-width: var(--container-narrow);
 }
 
 /* Header */
