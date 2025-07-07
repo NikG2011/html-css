@@ -117,9 +117,37 @@ img {
   opacity: 0.9;
 }
 
+/* Footer */
+.footer {
+  border-top: 1px #aaa;
+  padding: 2rem 1.5rem;
+  margin-top: 2rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img {
+  width: 120px;
+  height: 35px;
+}
+
+.footer h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  margin: 0.2rem;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
-  .header .header-flex {
+  .header .header-flex,
+  .footer .footer-flex {
     flex-direction: column;
     gap: 1.5rem;
   }
@@ -134,5 +162,9 @@ img {
 
   .gallery-item {
     width: calc(50% - 20px);
+  }
+
+  .footer .footer-flex {
+    text-align: center;
   }
 }
