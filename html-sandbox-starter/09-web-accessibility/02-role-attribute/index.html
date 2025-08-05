@@ -7,6 +7,61 @@
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - Role Attribute</h1>
+    <!-- <header role="banner">
+      <h1>My Website</h1>
+      <p>Welcome to my website</p>
+    </header>
+
+    <main>
+      <h2>My Website</h2>
+    </main> -->
+
+    <!-- <a href="/" role="button"></a> -->
+
+    <!-- <img
+      src="https://picsum.photos/200/300"
+      alt=""
+      role="button"
+      aria-label="Button to open modal"
+      tabindex="0"
+    /> -->
+
+    <!-- Listbox and Option -->
+    <!-- <h2>Availible Fruit</h2>
+    <ul role="listbox" aria-label="Availible Fruit">
+      <li role="option">Apple</li>
+      <li role="option">Grapes</li>
+      <li role="option">Orange</li>
+      <li role="option">Cherry</li>
+    </ul> -->
+
+    <!-- Region -->
+    <!-- <div role="region" aria-label="FAQ section">
+      <h2>FAQ</h2>
+      <p>This is the FAQ region</p>
+    </div> -->
+
+    <div role="alert">
+      <p>Post Saved</p>
+    </div>
+
+    <button class="button">Button</button>
+    <button class="button2">Second Button</button>
+
+    <style>
+      img:hover {
+        opacity: 0.9;
+      }
+    </style>
+
+    <script>
+      document.querySelector(".button").addEventListener("click", function () {
+        alert("Button Clicked!");
+      });
+
+      document.querySelector(".button2").addEventListener("click", function () {
+        alert("Second Button Clicked!");
+      });
+    </script>
   </body>
 </html>
