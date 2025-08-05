@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.6;
 }
 
@@ -60,7 +60,7 @@ body {
   align-items: center;
 }
 
-.search input[type='text'] {
+.search input[type="text"] {
   padding: 8px;
   border: none;
   border-radius: 5px 0 0 5px;
@@ -70,7 +70,7 @@ body {
 
 .search button {
   padding: 8px 15px;
-  background-color: #4caf50;
+  background-color: #2b5429;
   color: #fff;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -80,5 +80,15 @@ body {
 }
 
 .search button:hover {
-  background-color: #45a049;
+  background-color: #37803a;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
 }
