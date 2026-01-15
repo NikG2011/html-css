@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Utility Clases */
+.green {
+  color: greenyellow;
+}
+
+/* Navbar */
+.navbar {
+  background: transparent;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.navbar img {
+  height: 50px;
+  width: 50px;
+  margin: 0.3rem 2rem;
+}
+
+.navbar-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
